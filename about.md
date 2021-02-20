@@ -4,4 +4,5 @@ title: About
 permalink: /about/
 ---
 
-This is a site for Internal LabWorks, which is my testing grounds for SCCM/MEMCM, 3Dprinting, AWX/Ansible etc.
+This is a site for Internal LabWorks, which is my testing grounds for MEMCM,  
+3Dprinting, AWX/Ansible etc.
