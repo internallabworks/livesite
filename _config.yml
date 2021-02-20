@@ -28,8 +28,8 @@ twitter_username: jannisj
 github_username:  internallabworks
 markdown: CommonMarkGhPages
 # Build settings
-#theme: minima
-remote-theme: minima
+theme: minima
+#emote-theme: minima
 plugins:
   - jekyll-feed
 
