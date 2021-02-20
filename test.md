@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: splash
 title: Memcm-test
 permalink: /Memcm/test/
 ---

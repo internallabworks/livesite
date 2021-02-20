@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: splash
 title: 3D Printing
 permalink: /3dprinting/
 ---
