@@ -1,4 +1,5 @@
 ---
+layout: page
 title: 3D Printing
 permalink: /3dprinting/
 ---
