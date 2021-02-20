@@ -4,4 +4,4 @@ title: Memcm
 permalink: /Memcm/
 ---
 
-[powershell](doc:powershell.md)
+[powershell](powershell.md)
