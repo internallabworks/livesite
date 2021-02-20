@@ -26,12 +26,16 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jannisj
 github_username:  internallabworks
-markdown: CommonMarkGhPages
+markdown: kramdown
 # Build settings
-#theme: minima
-remote-theme: minima
+# theme: minima
+theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
+include: ["_pages"]
+
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -52,3 +56,25 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+timezone: Europe/Oslo
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
