@@ -31,6 +31,7 @@ markdown: kramdown
 # theme: minima
 theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes"
+include: ["_pages"]
 
 plugins:
   - jekyll-feed
@@ -55,3 +56,11 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true

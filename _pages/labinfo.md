@@ -1,5 +1,4 @@
 ---
-layout: splash
 title: Labinfo
 permalink: /Labinfo/
 ---
