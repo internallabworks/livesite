@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Verifikasjonsfil for domeneeierskap for Microsoft 365 – sted i nettstedsroten",
+  "Domain": "labworks.no",
+  "Id": "b95faad7-1597-42d6-906b-d26689c9705e"
+}
